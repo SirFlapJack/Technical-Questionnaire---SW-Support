@@ -1,0 +1,14 @@
+function reverseWords(inputString):
+    words = split(inputString, " ")
+    reversedWords = reverse(words)
+    outputString = join(reversedWords, " ")
+    return outputString
+
+inputString1 = "The weather is so sunny nowadays"
+inputString2 = "Life is so beautiful"
+
+outputString1 = reverseWords(inputString1)
+outputString2 = reverseWords(inputString2)
+
+print(outputString1)
+print(outputString2)
